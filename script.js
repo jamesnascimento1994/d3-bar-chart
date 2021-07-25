@@ -67,6 +67,8 @@ let drawBars = () => {
                     .style('visibility', 'hidden')
                     .style('width', 'auto')
                     .style('height', 'auto')
+					.style('color', 'black')
+					.style('background-color', 'darkgray')
 
 	svg
 		.selectAll('rect')

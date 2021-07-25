@@ -2,6 +2,7 @@
 
 * {
     font-family: 'Comfortaa', sans-serif;
+    color: #000;
 }
 
 html {
@@ -9,7 +10,7 @@ html {
 }
 
 body {
-    background-color: darkslateblue;
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(37,87,53,1) 100%);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -24,9 +25,9 @@ svg {
 }
 
 .bar {
-    background-color: #570e0d;
-    border-color: #570e0d;
-    fill: #570e0d;
+    background-color: #4a4a4a;
+    border-color: #4a4a4a;
+    fill: #4a4a4a;
 }
 
 .bar:hover {
@@ -39,11 +40,11 @@ g {
 
 #tooltip {
     margin-top: 10px;
-    color: white;
     font-size: 28px;
+    border-radius: 5px;
 }
 
 #title {
     font-size: 30px;
-    fill: #dddddd
+    fill: #000
 }
