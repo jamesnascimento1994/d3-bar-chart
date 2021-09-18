@@ -61,15 +61,16 @@ let generateScales = () => {
 
 let drawBars = () => {
 
-    let tooltip = d3.select('body')
-                    .append('div')
-                    .attr('id', 'tooltip')
-                    .style('visibility', 'hidden')
-                    .style('width', 'auto')
-                    .style('height', 'auto')
-					.style('color', 'black')
-					.style('background-color', 'darkgray')
-
+    let tooltip = d3
+			.select('body')
+			.append('div')
+			.attr('id', 'tooltip')
+			.style('visibility', 'hidden')
+			.style('width', 'auto')
+			.style('height', 'auto')
+			.style('color', 'black')
+			.style('background-color', 'darkgray')
+			.style('padding', '10px');
 	svg
 		.selectAll('rect')
 		.data(values)
